@@ -1,0 +1,26 @@
+### Send POST request with json body
+POST http://localhost:8080/create-developer
+Content-Type: application/json
+
+{
+  "developerLevel": "JUNIOR",
+  "developerSkillType": "BACK_END",
+  "experienceYears": 2,
+  "memberId": "Mini",
+  "name": "mouse Kim",
+  "age": 20
+}
+
+
+### Send POST request with json body
+POST http://localhost:8080/create-developer
+Content-Type: application/json
+
+{
+  "developerLevel": "SENIOR",
+  "developerSkillType": "FRONT_END",
+  "experienceYears": 12,
+  "memberId": "Mikey",
+  "name": "mouse",
+  "age": 20
+}
